@@ -1,0 +1,136 @@
+@media screen and (min-width:801px){
+    .parallax_1 { 
+        /* The image used */
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/sst-a59d8.appspot.com/o/2SST.JPG?alt=media&token=3ce3ba98-5635-4a9c-9422-9e38b4813c74");
+        background-color:gray;
+
+        /* Set a specific height */
+        height: 500px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:800px){
+    .parallax_1{
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/sst-a59d8.appspot.com/o/2SST.JPG?alt=media&token=3ce3ba98-5635-4a9c-9422-9e38b4813c74");
+        background-size: 100% auto;
+        background-repeat:no-repeat;
+        background-color:lightgray;
+        height: 300px;
+        
+    }
+}
+@media screen and (min-width:376px){
+    .HomeBox{
+        height:450px;
+        background-color:lightgray;
+    }
+}
+
+@media screen and (max-width:375px){
+    .HomeBox{
+        height:700px;
+        background-color:lightgray;
+    }
+}
+
+@media screen and (min-width:420px){
+    .AboutBox{
+        height:650px;
+    }
+}
+
+@media screen and (max-width:419px){
+    .AboutBox{
+        height:1200px;
+    }
+}
+
+.About2Box{
+        background-color:lightgray;
+        margin:10px;
+        padding-bottom:40px;
+    }
+
+.AboutText{
+    color:rgb(64, 0, 116);
+}
+
+.About2Text{
+    color:rgb(64, 0, 116);
+}
+
+.finalText{
+    color:rgb(64,0,116);
+}
+
+.textbox{
+    padding:5px;
+}
+
+.content {
+    margin:2px;
+}
+
+.colors{
+    background-image: linear-gradient(to right, #c444ae, #b257c7, #9869dd, #7579ef, #3c87fb);
+    size:100%;
+}
+
+.cover{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.coverBox{
+    margin-top:23em;
+}
+
+.footer {
+    background-color:gray;
+    text-align: center;
+    align-content: center;
+    display: block;
+    padding:10px;
+}
+
+.footerCover{
+    color:white;
+    background-color:#343a40;
+    text-align: center;
+    align-content: center;
+    display: block;
+    padding:10px;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+}
+
+.AboutTop{
+    font-size: 16px;
+
+}
+
+.AboutBio{
+    background-color: #343a40;
+    color:white;
+    height:100%;
+    width:auto;
+
+}
+
+.fa-facebook-square{
+    color:white;
+}
+
+.fa-envelope{
+    color:white;
+}
